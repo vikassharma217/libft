@@ -43,6 +43,7 @@ To use libft in projects:
 Clone the repository:
 
 git clone https://github.com/vikassharma217/libft
+
 cd libft
 
 Compile the library:
