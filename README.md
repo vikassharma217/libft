@@ -30,15 +30,15 @@ Why Libft?
 
 Libft is designed to:
 
-Strengthen your understanding of C by diving deep into its core functions.
+Strengthen our understanding of C by diving deep into its core functions.
 
-Provide a reusable library for your C projects.
+Provide a reusable library for our C projects.
 
-Improve your problem-solving skills by encouraging clean, modular code design.
+Improve problem-solving skills by encouraging clean, modular code design.
 
 Installation
 
-To use libft in your projects:
+To use libft in projects:
 
 Clone the repository:
 
@@ -49,11 +49,11 @@ Compile the library:
 
 make
 
-Include the library in your project:
+Include the library in project:
 
-Add libft.a to your project.
+Add libft.a to project.
 
-Include the libft.h header file in your source files.
+Include the libft.h header file in source files.
 
 Usage Example
 
@@ -62,7 +62,8 @@ Here's an example of using libft in a simple C program:
 #include "libft.h"
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     char *src = "Hello, World!";
     char dest[20];
 
@@ -71,24 +72,3 @@ int main() {
 
     return 0;
 }
-
-Directory Structure
-
-src/: Contains the implementation files for each function.
-
-include/: Contains the libft.h header file with all function prototypes.
-
-Makefile: Automates the compilation of the library.
-
-Contributing
-
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Acknowledgments
-
-This project is part of the 42 School curriculum, and I am grateful for the opportunity to work on it. Special thanks to the 42 community for its support and resources.
-
