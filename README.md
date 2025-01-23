@@ -60,16 +60,16 @@ Usage Example
 
 Here's an example of using libft in a simple C program:
 
-#include "libft.h"
-#include <stdio.h>
+    #include "libft.h"
+    #include <stdio.h>
 
-int main() 
-{
-    char *src = "Hello, World!";
-    char dest[20];
+    int main() 
+    {
+        char *src = "Hello, World!";
+        char dest[20];
 
-    ft_memcpy(dest, src, ft_strlen(src) + 1);
-    printf("Copied string: %s\n", dest);
+        ft_memcpy(dest, src, ft_strlen(src) + 1);
+        printf("Copied string: %s\n", dest);
 
-    return 0;
-}
+        return 0;
+    }
